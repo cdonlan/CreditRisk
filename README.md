@@ -26,7 +26,7 @@ This project demonstrates comprehensive credit risk analysis using Python, machi
 ## 📁 Project Structure
 ```
 CreditRisk/
-├── credit_risk_analysis.ipynb    # Main analysis notebook
+├── credit_risk_analysis_sanitized.ipynb    # Main analysis notebook (sanitized for GitHub)
 ├── test_data.csv                 # Sample customer data (gitignored)
 ├── clean_notebook.py             # GitHub rendering utility
 ├── .gitignore                    # Git ignore rules
@@ -46,7 +46,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 1. **Clone the repository**
 2. **Set up virtual environment** (commands above)
 3. **Add your data** to `test_data.csv`
-4. **Run Jupyter notebook**: `jupyter notebook credit_risk_analysis.ipynb`
+4. **Run Jupyter notebook**: `jupyter notebook credit_risk_analysis_sanitized.ipynb`
 
 ## 📖 Notebook Sections
 
@@ -83,18 +83,18 @@ If the notebook doesn't render properly on GitHub, try these alternatives:
 
 ### Option 1: NBViewer
 ```
-https://nbviewer.jupyter.org/github/cdonlan/CreditRisk/blob/main/credit_risk_analysis.ipynb
+https://nbviewer.jupyter.org/github/cdonlan/CreditRisk/blob/main/credit_risk_analysis_sanitized.ipynb
 ```
 
 ### Option 2: Google Colab
 1. Go to [Google Colab](https://colab.research.google.com/)
 2. Select "GitHub" tab
 3. Enter: `cdonlan/CreditRisk`
-4. Open `credit_risk_analysis.ipynb`
+4. Open `credit_risk_analysis_sanitized.ipynb`
 
 ### Option 3: Binder
 ```
-https://mybinder.org/v2/gh/cdonlan/CreditRisk/main?filepath=credit_risk_analysis.ipynb
+https://mybinder.org/v2/gh/cdonlan/CreditRisk/main?filepath=credit_risk_analysis_sanitized.ipynb
 ```
 
 ## 🎯 Key Results
