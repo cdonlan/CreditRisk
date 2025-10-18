@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import Plot from 'react-plotly.js'
-import { useTable, useSortBy, usePagination } from '@tanstack/react-table'
 
 function Metrics({ data }) {
   if (!data || data.length === 0) return null
@@ -20,17 +19,8 @@ function Metrics({ data }) {
 
 function PredictionsTable({ data }) {
   if (!data) return null
-  const columns = React.useMemo(
-    () => [
-      { Header: 'ID', accessor: 'id' },
-      { Header: 'Actual', accessor: 'actual' },
-      { Header: 'Predicted', accessor: 'predicted' }
-    ],
-    []
-  )
 
-  const table = useTable({ columns, data }, useSortBy, usePagination)
-  // minimal render
+  // Simple table render (removed dependency on react-table hooks)
   return (
     <table className="pred-table">
       <thead>
