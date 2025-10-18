@@ -46,6 +46,7 @@ ipython_config.py
 *.xls
 *.json
 !site/package-lock.json
+!site/package.json
 *.xml
 test_data.csv
 customer_data/
