@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+.container { max-width: 1000px; margin: 0 auto; }
+.metrics { display:flex; gap:20px; margin-bottom: 20px }
+.pred-table { width: 100%; border-collapse: collapse; }
+.pred-table th, .pred-table td { border: 1px solid #ddd; padding: 8px }
+.pred-table th { background:#f4f4f4 }
